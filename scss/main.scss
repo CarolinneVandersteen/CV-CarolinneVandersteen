@@ -8,6 +8,7 @@ body{
   background: #FFF;
   color: #939393;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -22,7 +23,7 @@ h1{
 }
 
 h2{
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin: 22.5px 0 15px;
 }
 
@@ -66,7 +67,16 @@ article{
     background-color: #fafafa;
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
+
+    h2{
+      text-transform: uppercase;
+    }
   }
+}
+
+hr{
+  border: 0px solid #ececec;
+  border-bottom: 2px solid #ececec;
 }
 
 .no-break{
@@ -105,6 +115,10 @@ article{
     font-weight: 300;
   }
 
+  .personal-info-firstname{
+    font-size: 1.2em;
+  }
+
   .personal-info-lastname{
     font-weight: 600;
     font-size: 36px;
@@ -136,6 +150,10 @@ article{
   }
 }
 
+.introduction .content{
+  font-size: 1.2em;
+}
+
 .listing{
   list-style: none;
   padding-top: 30px;
@@ -145,7 +163,7 @@ article{
   }
 
   .counter{
-    width: 35px;
+    margin-right:10px;
     font-size: 1.2rem;
     font-weight: 800;
     color: #F8BB10;
@@ -195,6 +213,44 @@ article{
   }
 }
 
+.timeline{
+  margin-top:15px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: 26px;
+  border-color: #ececec;
+  list-style: none;
+}
+
+.timeline-item{
+  position: relative;
+
+  .content{
+    display: flex;
+
+    .heading{
+      flex: 1;
+    }
+
+    .main{
+      flex: 2;
+      p{
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.timeline-point{
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: -29.5px;
+  top: 6px;
+  border-radius: 50%;
+  background: #F8BB10;
+  box-shadow: 0 0 0 6px #fff;
+}
 
 .contact-info{
   font-size: 14px;

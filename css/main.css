@@ -381,109 +381,121 @@ body {
   background: #FFF;
   color: #939393;
   font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
 
-/* line 13, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 14, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   font-weight: 600;
 }
 
-/* line 19, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 20, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 h1 {
   margin: 25px 0;
   line-height: 35px;
 }
 
-/* line 24, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 25, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 h2 {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin: 22.5px 0 15px;
 }
 
-/* line 29, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 30, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 h4 {
   margin-bottom: 10px;
   color: #727272;
 }
 
-/* line 34, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 35, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 address {
   font-style: normal;
 }
 
-/* line 38, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 39, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 42, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 43, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 48, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 49, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 article p {
   line-height: 24.5px;
 }
 
-/* line 53, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 54, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .section {
   padding-bottom: 30px;
 }
 
-/* line 56, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 57, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .section.spaced, .section .spaced {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-/* line 61, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 62, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .section header.spaced {
   padding: 20px 1.5rem auto;
 }
 
-/* line 65, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 66, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .section header {
   background-color: #fafafa;
   border-top: 1px solid #ececec;
   border-bottom: 1px solid #ececec;
 }
 
-/* line 72, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 71, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.section header h2 {
+  text-transform: uppercase;
+}
+
+/* line 77, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+hr {
+  border: 0px solid #ececec;
+  border-bottom: 2px solid #ececec;
+}
+
+/* line 82, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .no-break {
   white-space: nowrap;
 }
 
-/* line 76, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 86, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .page-header {
   padding-top: 3.15rem;
 }
 
 /* Avatar / Image */
-/* line 81, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 91, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* line 86, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 96, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .avatar .avatar-image {
   border-radius: 50%;
   width: 14rem;
   height: auto;
 }
 
-/* line 93, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 103, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .personal-info {
   text-align: center;
   font-weight: 400;
 }
 
-/* line 97, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 107, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .personal-info .personal-info-firstname,
 .personal-info .personal-info-lastname {
   display: block;
@@ -491,71 +503,81 @@ article p {
   margin: 0;
 }
 
-/* line 104, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 114, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .personal-info .personal-info-firstname, .personal-info .job-title {
   font-weight: 300;
 }
 
-/* line 108, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 118, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.personal-info .personal-info-firstname {
+  font-size: 1.2em;
+}
+
+/* line 122, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .personal-info .personal-info-lastname {
   font-weight: 600;
   font-size: 36px;
   color: #F8BB10;
 }
 
-/* line 114, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 128, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .personal-info .job-title {
   font-size: 14px;
 }
 
-/* line 120, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 134, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .social-media .social-icon-menu {
   list-style-type: none;
   margin: 25px 0;
 }
 
-/* line 124, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 138, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .social-media .social-icon-menu li {
   display: inline-block;
 }
 
-/* line 128, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 142, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .social-media .social-icon-menu a {
   color: grey;
   transition: color 0.6s;
 }
 
-/* line 132, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 146, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .social-media .social-icon-menu a:hover {
   color: #F8BB10;
 }
 
-/* line 139, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 153, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.introduction .content {
+  font-size: 1.2em;
+}
+
+/* line 157, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing {
   list-style: none;
   padding-top: 30px;
 }
 
-/* line 143, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 161, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing .counter, .listing h3 {
   display: inline-block;
 }
 
-/* line 147, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 165, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing .counter {
-  width: 35px;
+  margin-right: 10px;
   font-size: 1.2rem;
   font-weight: 800;
   color: #F8BB10;
 }
 
-/* line 154, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 172, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing li {
   padding-top: 7.5px;
   padding-bottom: 7.5px;
 }
 
-/* line 159, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 177, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing .progress-bar {
   position: relative;
   margin-top: 15px;
@@ -567,7 +589,7 @@ article p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
-/* line 169, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 187, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .listing .progress-bar .progress {
   position: absolute;
   top: 50%;
@@ -584,48 +606,95 @@ article p {
   box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* line 199, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 216, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline {
+  margin-top: 15px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: 26px;
+  border-color: #ececec;
+  list-style: none;
+}
+
+/* line 225, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-item {
+  position: relative;
+}
+
+/* line 228, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-item .content {
+  display: flex;
+}
+
+/* line 231, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-item .content .heading {
+  flex: 1;
+}
+
+/* line 235, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-item .content .main {
+  flex: 2;
+}
+
+/* line 237, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-item .content .main p {
+  margin-top: 0;
+}
+
+/* line 244, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+.timeline-point {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: -29.5px;
+  top: 6px;
+  border-radius: 50%;
+  background: #F8BB10;
+  box-shadow: 0 0 0 6px #fff;
+}
+
+/* line 255, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info {
   font-size: 14px;
 }
 
-/* line 201, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 257, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-/* line 207, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 263, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info li {
   text-align: center;
   width: 100%;
   padding-bottom: 20px;
 }
 
-/* line 213, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 269, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info a {
   color: grey;
   transition: color .2s;
 }
 
-/* line 217, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 273, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info a:hover {
   color: #F8BB10;
 }
 
-/* line 222, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 278, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info .contact-menu {
   list-style-type: none;
   padding-top: 30px;
 }
 
-/* line 227, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 283, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 .contact-info p {
   margin: 0;
 }
 
-/* line 234, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
+/* line 290, ../../Servers/laragon/www/cv-carolinne/scss/main.scss */
 footer.contact .contact-info li {
   text-align: left;
 }
