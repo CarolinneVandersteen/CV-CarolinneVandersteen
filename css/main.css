@@ -372,67 +372,118 @@ template {
 }
 
 /* line 3, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+#blockColorblindContent {
+  display: none;
+}
+
+/* line 7, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 body {
   background: #FFF;
   color: #939393;
-}
-
-/* line 8, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
-h1, h3, h4, h5, h6 {
-  padding: 0;
-  margin: 0;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* line 13, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* line 19, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 h1 {
   margin: 25px 0;
   line-height: 35px;
 }
 
-/* line 18, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 24, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 h2 {
-  margin-bottom: 15px;
+  font-size: 1.2rem;
+  margin: 22.5px 0 15px;
 }
 
-/* line 22, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 29, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 h4 {
   margin-bottom: 10px;
+  color: #727272;
 }
 
-/* line 26, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 34, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+address {
+  font-style: normal;
+}
+
+/* line 38, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 a {
   text-decoration: none;
 }
 
-/* line 30, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 42, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 ul {
   margin: 0;
   padding: 0;
 }
 
+/* line 48, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+article p {
+  line-height: 24.5px;
+}
+
+/* line 53, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.section {
+  padding-bottom: 30px;
+}
+
+/* line 56, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.section.spaced, .section .spaced {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* line 61, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.section header.spaced {
+  padding: 20px 1.5rem auto;
+}
+
+/* line 65, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.section header {
+  background-color: #fafafa;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+/* line 72, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.no-break {
+  white-space: nowrap;
+}
+
+/* line 76, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.page-header {
+  padding-top: 3.15rem;
+}
+
 /* Avatar / Image */
-/* line 36, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 81, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .avatar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 30px 0 30px;
 }
 
-/* line 43, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 86, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .avatar .avatar-image {
   border-radius: 50%;
   width: 14rem;
   height: auto;
 }
 
-/* line 50, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 93, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .personal-info {
   text-align: center;
   font-weight: 400;
 }
 
-/* line 54, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 97, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .personal-info .personal-info-firstname,
 .personal-info .personal-info-lastname {
   display: block;
@@ -440,70 +491,89 @@ ul {
   margin: 0;
 }
 
-/* line 61, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 104, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .personal-info .personal-info-firstname, .personal-info .job-title {
   font-weight: 300;
 }
 
-/* line 65, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 108, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .personal-info .personal-info-lastname {
-  font-size: 44px;
+  font-weight: 600;
+  font-size: 36px;
   color: #F8BB10;
 }
 
-/* line 70, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 114, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .personal-info .job-title {
   font-size: 14px;
 }
 
-/* line 76, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 120, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .social-media .social-icon-menu {
   list-style-type: none;
   margin: 25px 0;
 }
 
-/* line 80, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 124, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .social-media .social-icon-menu li {
   display: inline-block;
 }
 
-/* line 84, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 128, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .social-media .social-icon-menu a {
   color: grey;
   transition: color 0.6s;
 }
 
-/* line 88, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 132, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .social-media .social-icon-menu a:hover {
   color: #F8BB10;
 }
 
-/* line 96, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 139, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.contact-info {
+  font-size: 14px;
+}
+
+/* line 141, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.contact-info ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* line 147, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+.contact-info li {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* line 153, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .contact-info a {
   color: grey;
   transition: color .2s;
 }
 
-/* line 100, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 157, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .contact-info a:hover {
   color: #F8BB10;
 }
 
-/* line 105, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
-.contact-info hr {
-  margin-bottom: 25px;
-}
-
-/* line 109, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 162, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .contact-info .contact-menu {
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
+  padding-top: 30px;
 }
 
-/* line 115, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+/* line 167, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
 .contact-info p {
   margin: 0;
+}
+
+/* line 174, D:/Servers/Laragon/www/carolinnevandersteen/scss/main.scss */
+footer.contact .contact-info li {
+  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */
