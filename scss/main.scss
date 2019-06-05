@@ -136,6 +136,66 @@ article{
   }
 }
 
+.listing{
+  list-style: none;
+  padding-top: 30px;
+
+  .counter, h3 {
+    display: inline-block;
+  }
+
+  .counter{
+    width: 35px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #F8BB10;
+  }
+
+  li{
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+  }
+
+  .progress-bar{
+    position: relative;
+    margin-top: 15px;
+    height: 15px;
+    width: 100%;
+    background-color: lightgray;
+    border: solid 1px rgba(51, 51, 51, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+
+    .progress{
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      height: 12.5px;
+      transform: translate(0,-50%);
+      background-color: #F8BB10;
+      border-radius: 15px;
+      border: solid 1px rgba(204, 151, 16, 0.4);
+      background-image: linear-gradient(
+                      -45deg,
+                      rgba(255, 255, 255, .2) 25%,
+                      transparent 25%,
+                      transparent 50%,
+                      rgba(255, 255, 255, .2) 50%,
+                      rgba(255, 255, 255, .2) 75%,
+                      transparent 75%,
+                      transparent
+      );
+      background-size: 15px 14px;
+
+      animation: change 1s linear infinite;
+      overflow: hidden;
+      box-shadow:inset 0px -2px 5px rgba(0, 0, 0, 0.2);
+
+    }
+  }
+}
+
+
 .contact-info{
   font-size: 14px;
   ul{
@@ -174,4 +234,9 @@ footer.contact{
   .contact-info li{
     text-align: left;
   }
+}
+
+@keyframes change {
+  from {background-position:0 0,left}
+  to {background-position: 15px 0,left}
 }
